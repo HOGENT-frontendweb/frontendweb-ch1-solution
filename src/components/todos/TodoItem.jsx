@@ -1,7 +1,7 @@
 export function TodoItem({
   text,
   done,
-  description
+  description,
 }) {
   return (
     <li className="list-group-item">

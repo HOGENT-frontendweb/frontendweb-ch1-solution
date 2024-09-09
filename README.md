@@ -1,6 +1,6 @@
 # To do app
 
-Een mogelijke oplossing voor de Todo app opgave van hoofdstuk 1. Uiteraard zijn er veel andere oplossingen mogelijk!
+Een mogelijke oplossing voor de To do app opgave van Hoofdstuk 1. Uiteraard zijn er veel andere oplossingen mogelijk!
 
 ## Opstarten
 

@@ -1,4 +1,4 @@
-import { TodoItem } from './components/todos/TodoItem'
+import { TodoItem } from './components/todos/TodoItem';
 import TODO_DATA from './api/mock_data';
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
 
       <ul className="list-group">
         {TODO_DATA.map((item) => 
-          <TodoItem {...item} />
+          <TodoItem key={item.id} {...item} />,
         )}
       </ul>
     </div>
