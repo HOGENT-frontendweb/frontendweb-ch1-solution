@@ -1,8 +1,15 @@
 export function TodoItem({
+  id,
   text,
   done,
   description,
+  onChangeChecked,
 }) {
+  
+  const handleChange = ()=> {
+    onChangeChecked(id);
+  };
+
   return (
     <li className="bg-white border border-gray-200 rounded-lg p-4 shadow-sm">
       <div className="flex items-start space-x-3">
@@ -11,6 +18,7 @@ export function TodoItem({
           type="checkbox"
           checked={done}
           readOnly
+          onChange={handleChange}
         />
         <label className="flex-1">
           <div className='font-semibold text-gray-800'>
